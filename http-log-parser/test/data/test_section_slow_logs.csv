@@ -1,0 +1,10 @@
+"remotehost","rfc931","authuser","date","request","status","bytes"
+"10.0.0.4","-","apache",1549573870,"GET /user HTTP/1.0",200,1234
+"10.0.0.2","-","apache",1549573874,"GET /help HTTP/1.0",200,1234
+"10.0.0.2","-","apache",1549573874,"GET /help HTTP/1.0",200,1234
+"10.0.0.5","-","apache",1549573875,"GET /help HTTP/1.0",200,1234
+"10.0.0.5","-","apache",1549573875,"GET /report HTTP/1.0",200,1234
+
+"10.0.0.5","-","apache",1549573895,"GET /report HTTP/1.0",200,1234
+"10.0.0.4","-","apache",1549573896,"GET /api HTTP/1.0",200,1234
+"10.0.0.4","-","apache",1549573896,"GET /api HTTP/1.0",200,1234
