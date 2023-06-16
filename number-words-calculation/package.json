@@ -1,0 +1,16 @@
+{
+  "name": "numbers-reader",
+  "version": "1.0.0",
+  "description": "Company X code challenge",
+  "scripts": {
+    "test": "jest --testPathPattern=.* --noStackTrace",
+    "lint": "prettier --write . && eslint ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "jest": "^29.5.0",
+    "prettier": "2.8.8"
+  }
+}

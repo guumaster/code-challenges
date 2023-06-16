@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+const { calculateSum } = require('./calc/calculate.js');
+
+// Run the CLI if the file is executed directly
+if (require.main === module) {
+  const input = process.argv.slice(2).join(' ');
+  try {
+    console.log(calculateSum(input));
+  } catch (err)  {
+    console.log(err.message);
+  }
+}

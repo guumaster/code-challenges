@@ -21,12 +21,13 @@ func TestQueue_AddJob(t *testing.T) {
 	mockJob.On("Run", mock.Anything).Return()
 
 	q := queue.NewQueue(2)
-	q.Start()
 
 	// Add 3 jobs to the queue
 	q.AddJob(mockJob.Run)
 	q.AddJob(mockJob.Run)
 	q.AddJob(mockJob.Run)
+
+	q.Start()
 
 	q.Wait()
 
